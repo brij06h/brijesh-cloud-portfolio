@@ -4258,7 +4258,7 @@ export default function App() {
               <Mail className="w-4 h-4" />
             </a>
             <span className="text-xs font-mono pl-2" style={{ color: 'var(--text-secondary)' }}>
-              Â© {new Date().getFullYear()} {siteConfig.name}
+              © {new Date().getFullYear()} {siteConfig.name}
             </span>
           </div>
         </div>
