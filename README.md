@@ -25,11 +25,4 @@ npm run dev
 npm run build
 ```
 
-## Connect With Me
-
-- **GitHub:** [brij06h](https://github.com/brij06h)
-- **Email:** cbrijh06@gmail.com
-
----
-
-Built by **Brijesh** | Cloud & Infrastructure Enthusiast
+Built by **Brijesh Chandera** | Cloud & Infrastructure Enthusiast
