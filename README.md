@@ -1,3 +1,4 @@
+
 # BRIJESH.Cloud — Cloud & Infrastructure Portfolio
 
 Personal portfolio showcasing my projects, technical skills, and learning journey in Cloud Computing and IT Infrastructure.
@@ -16,3 +17,19 @@ git clone https://github.com/brij06h/brijesh-cloud-portfolio.git
 cd brijesh-cloud-portfolio
 npm install
 npm run dev
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+## Connect With Me
+
+- **GitHub:** [brij06h](https://github.com/brij06h)
+- **Email:** cbrijh06@gmail.com
+
+---
+
+Built by **Brijesh** | Cloud & Infrastructure Enthusiast
