@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+﻿import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import type { SVGProps } from 'react';
 import {
   Sun,
@@ -93,7 +93,6 @@ const siteConfig = {
   email: 'brijeshchandera26@gmail.com', // Editable placeholder email
   linkedinUrl: 'https://www.linkedin.com/in/brijesh6', // Editable LinkedIn URL
   githubUrl: 'https://github.com/brij06h',
-  resumeUrl: '', // Add a direct PDF path (e.g. '/Brijesh_Resume.pdf') or URL to enable direct download
 
   // --- Contact Form Backend Endpoint ---
   // Example: 'https://formspree.io/f/yourFormId' or your own API route.
@@ -186,7 +185,7 @@ const siteConfig = {
       status: 'Active / Open Source',
       githubUrl: 'https://github.com/brij06h/aws-cloud-security-auditor',
       problem:
-        'Cloud environments can accumulate misconfigurations—such as overly permissive IAM policies, public S3 buckets, or open security group rules—that are tedious and error-prone to audit manually.',
+        'Cloud environments can accumulate misconfigurationsâ€”such as overly permissive IAM policies, public S3 buckets, or open security group rulesâ€”that are tedious and error-prone to audit manually.',
       solutionOverview:
         'A Python and Boto3 auditing utility that queries AWS service APIs in read-only mode, evaluates resource configurations against foundational cloud security checks, and outputs structured audit reports.',
       stack: [
@@ -712,7 +711,7 @@ function ProjectArchitectureDiagram({ type }) {
       >
         <div className="flex items-center justify-between mb-4">
           <span className="text-xs font-mono uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-            Architecture Flow — Read-Only Security Audit
+            Architecture Flow â€” Read-Only Security Audit
           </span>
           <span className="text-[11px] font-mono" style={{ color: 'var(--accent-cyan)' }}>
             AWS SDK / Boto3
@@ -822,10 +821,10 @@ function ProjectArchitectureDiagram({ type }) {
       >
         <div className="flex items-center justify-between mb-4">
           <span className="text-xs font-mono uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-            Architecture Flow — Containerized ESXi Telemetry Pipeline
+            Architecture Flow â€” Containerized ESXi Telemetry Pipeline
           </span>
           <span className="text-[11px] font-mono" style={{ color: 'var(--accent-cyan)' }}>
-            vSphere API â†’ Telegraf â†’ InfluxDB â†’ Grafana
+            vSphere API Ã¢â€ â€™ Telegraf Ã¢â€ â€™ InfluxDB Ã¢â€ â€™ Grafana
           </span>
         </div>
         <svg
@@ -867,7 +866,7 @@ function ProjectArchitectureDiagram({ type }) {
           {/* Right Container: Docker Compose Stack on Windows 11 & WSL2 */}
           <rect x="284" y="24" width="560" height="176" rx="10" fill="none" stroke="var(--accent)" strokeWidth="1.2" strokeDasharray="5 4" />
           <text x="564" y="48" textAnchor="middle" fill="var(--text-secondary)" fontSize="10" fontFamily="JetBrains Mono, monospace">
-            Docker Compose Stack — Windows 11 &amp; WSL2
+            Docker Compose Stack â€” Windows 11 &amp; WSL2
           </text>
 
           {/* Node 1: Telegraf */}
@@ -927,10 +926,10 @@ function ProjectArchitectureDiagram({ type }) {
     >
       <div className="flex items-center justify-between mb-4">
         <span className="text-xs font-mono uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-          Architecture Flow — Event-Driven Serverless Lifecycle
+          Architecture Flow â€” Event-Driven Serverless Lifecycle
         </span>
         <span className="text-[11px] font-mono" style={{ color: 'var(--accent-cyan)' }}>
-          S3 â†’ Lambda â†’ Identity Center & DynamoDB
+          S3 Ã¢â€ â€™ Lambda Ã¢â€ â€™ Identity Center & DynamoDB
         </span>
       </div>
       <svg
@@ -1028,7 +1027,7 @@ function EsxiEnvironmentDiagram() {
           Home Lab Environment Topology
         </span>
         <span className="text-[11px] font-mono" style={{ color: 'var(--accent-cyan)' }}>
-          Windows 11 Pro â€¢ VMware Workstation â€¢ WSL2 + Docker Desktop
+          Windows 11 Pro Ã¢â‚¬Â¢ VMware Workstation Ã¢â‚¬Â¢ WSL2 + Docker Desktop
         </span>
       </div>
       <svg
@@ -1055,7 +1054,7 @@ function EsxiEnvironmentDiagram() {
           strokeWidth="1.3"
         />
         <text x="32" y="38" fill="var(--text-primary)" fontSize="12" fontWeight="600" fontFamily="Space Grotesk, sans-serif">
-          PHYSICAL WORKSTATION — WINDOWS 11 PRO (PERSONAL HOME LAB)
+          PHYSICAL WORKSTATION â€” WINDOWS 11 PRO (PERSONAL HOME LAB)
         </text>
         <text x="848" y="38" textAnchor="end" fill="var(--text-secondary)" fontSize="10" fontFamily="JetBrains Mono, monospace">
           LOCAL LAB VIRTUAL NETWORK
@@ -1092,7 +1091,7 @@ function EsxiEnvironmentDiagram() {
           Nested VMware ESXi 7.0 Update 3
         </text>
         <text x="68" y="137" fill="var(--text-secondary)" fontSize="9.5" fontFamily="JetBrains Mono, monospace">
-          esxi-01.homelab.local â€¢ vSphere API Enabled
+          esxi-01.homelab.local Ã¢â‚¬Â¢ vSphere API Enabled
         </text>
 
         {/* Guest VMs inside ESXi */}
@@ -1204,7 +1203,7 @@ function EsxiEnvironmentDiagram() {
         </text>
 
         <text x="664" y="240" textAnchor="middle" fill="var(--text-secondary)" fontSize="9.5" fontFamily="JetBrains Mono, monospace">
-          Browser Dashboard Access â†’ localhost (Grafana UI)
+          Browser Dashboard Access Ã¢â€ â€™ localhost (Grafana UI)
         </text>
       </svg>
     </div>
@@ -1388,7 +1387,7 @@ function GrafanaDashboardPreview({ reducedMotion }) {
               color: '#7DD3FC',
             }}
           >
-            Home Lab Telemetry Preview — Sanitized Sample Data
+            Home Lab Telemetry Preview â€” Sanitized Sample Data
           </span>
 
           {/* Time-range switcher */}
@@ -1489,7 +1488,7 @@ function GrafanaDashboardPreview({ reducedMotion }) {
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
               <span>Healthy</span>
             </div>
-            <div className="text-[11px] font-mono text-slate-400">Telegraf â†’ InfluxDB 2.7</div>
+            <div className="text-[11px] font-mono text-slate-400">Telegraf Ã¢â€ â€™ InfluxDB 2.7</div>
             <div className="mt-1 text-[10px] font-mono text-slate-500">Interval: 20s poll</div>
           </div>
 
@@ -1883,7 +1882,7 @@ datasources:
 
 /**
  * ============================================================================
- * CREATIVE CORNER — INTERACTIVE CANVAS LAB
+ * CREATIVE CORNER â€” INTERACTIVE CANVAS LAB
  * ============================================================================
  * Config-driven interactive lab supporting 3 distinct generative experiments:
  * 1. Generative Mesh Network
@@ -2566,7 +2565,7 @@ function NotFoundPage({ path, onGoHome }) {
           }}
         >
           <Terminal className="w-3.5 h-3.5" />
-          <span>HTTP 404 — ROUTE NOT FOUND</span>
+          <span>HTTP 404 â€” ROUTE NOT FOUND</span>
         </div>
 
         <h1
@@ -2643,9 +2642,6 @@ export default function App() {
   const [expPaused, setExpPaused] = useState(false);
   const [expResetNonce, setExpResetNonce] = useState(0);
 
-  // Resume notice state (honest feedback when siteConfig.resumeUrl is empty)
-  const [showResumeNotice, setShowResumeNotice] = useState(false);
-
   // Contact form state
   const [formData, setFormData] = useState({
     name: '',
@@ -2687,9 +2683,9 @@ export default function App() {
     ensureMeta(
       'name',
       'description',
-      'Personal portfolio of Brijesh — Aspiring Cloud & Infrastructure professional focused on AWS, Linux, virtualization, observability, automation, and cloud security.'
+      'Personal portfolio of Brijesh â€” Aspiring Cloud & Infrastructure professional focused on AWS, Linux, virtualization, observability, automation, and cloud security.'
     );
-    ensureMeta('property', 'og:title', 'BRIJESH.Cloud — Cloud & Infrastructure Portfolio');
+    ensureMeta('property', 'og:title', 'BRIJESH.Cloud â€” Cloud & Infrastructure Portfolio');
     ensureMeta(
       'property',
       'og:description',
@@ -2702,11 +2698,11 @@ export default function App() {
   useEffect(() => {
     if (route.view === 'project') {
       const proj = siteConfig.projects.find((p) => p.slug === route.slug);
-      document.title = proj ? `${proj.title} — ${siteConfig.brand}` : siteConfig.brand;
+      document.title = proj ? `${proj.title} â€” ${siteConfig.brand}` : siteConfig.brand;
     } else if (route.view === 'not-found') {
-      document.title = `404 Not Found — ${siteConfig.brand}`;
+      document.title = `404 Not Found â€” ${siteConfig.brand}`;
     } else {
-      document.title = `${siteConfig.brand} — Cloud & Infrastructure Portfolio`;
+      document.title = `${siteConfig.brand} â€” Cloud & Infrastructure Portfolio`;
     }
   }, [route]);
 
@@ -2825,15 +2821,6 @@ export default function App() {
     return siteConfig.skills.filter((group) => group.id === activeSkillTab);
   }, [activeSkillTab]);
 
-  // Resume download handler
-  const handleResumeClick = () => {
-    if (siteConfig.resumeUrl && siteConfig.resumeUrl.trim() !== '') {
-      window.open(siteConfig.resumeUrl, '_blank', 'noopener,noreferrer');
-    } else {
-      setShowResumeNotice((prev) => !prev);
-    }
-  };
-
   // Contact form validation & submission
   const validateForm = () => {
     const errors: {
@@ -2906,7 +2893,7 @@ export default function App() {
   // Pre-filled mailto link for honest fallback
   const prefilledMailto = useMemo(() => {
     const subject = encodeURIComponent(formData.subject.trim() || `Hello from ${siteConfig.brand}`);
-    const bodyText = `Hi Brijesh,\n\n${formData.message.trim()}\n\n— ${formData.name.trim() || 'Visitor'}${
+    const bodyText = `Hi Brijesh,\n\n${formData.message.trim()}\n\nâ€” ${formData.name.trim() || 'Visitor'}${
       formData.email.trim() ? ` (${formData.email.trim()})` : ''
     }`;
     return `mailto:${siteConfig.email}?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
@@ -3488,10 +3475,10 @@ export default function App() {
                       >
                         <span style={{ color: 'var(--accent-cyan)' }}>flow: </span>
                         {project.architectureType === 'security-auditor'
-                          ? 'Auditor CLI â†’ Boto3 â†’ AWS APIs (IAM / S3 / EC2) â†’ Rule Evaluator â†’ Report'
+                          ? 'Auditor CLI Ã¢â€ â€™ Boto3 Ã¢â€ â€™ AWS APIs (IAM / S3 / EC2) Ã¢â€ â€™ Rule Evaluator Ã¢â€ â€™ Report'
                           : project.architectureType === 'esxi-monitoring'
-                          ? 'VMware ESXi 7.0 U3 â†’ vSphere API â†’ Telegraf â†’ InfluxDB 2.7 â†’ Grafana 11'
-                          : 'HR Data â†’ Amazon S3 â†’ AWS Lambda (Python/Boto3) â†’ IAM Identity Center + DynamoDB'}
+                          ? 'VMware ESXi 7.0 U3 Ã¢â€ â€™ vSphere API Ã¢â€ â€™ Telegraf Ã¢â€ â€™ InfluxDB 2.7 Ã¢â€ â€™ Grafana 11'
+                          : 'HR Data Ã¢â€ â€™ Amazon S3 Ã¢â€ â€™ AWS Lambda (Python/Boto3) Ã¢â€ â€™ IAM Identity Center + DynamoDB'}
                       </div>
 
                       {/* Stack tags */}
@@ -3889,7 +3876,7 @@ export default function App() {
                   </h2>
                 </div>
                 <p className="text-xs font-mono" style={{ color: 'var(--text-secondary)' }}>
-                  Continuous growth — not a claim of mastery
+                  Continuous growth â€” not a claim of mastery
                 </p>
               </div>
 
@@ -4005,43 +3992,7 @@ export default function App() {
                     </span>
                     <ArrowUpRight className="w-4 h-4" style={{ color: 'var(--text-secondary)' }} />
                   </a>
-
-                  <button
-                    type="button"
-                    onClick={handleResumeClick}
-                    className="surface-card flex items-center justify-between px-4 py-3 rounded-xl border text-sm text-left"
-                  >
-                    <span className="flex items-center gap-3">
-                      <FileText className="w-4 h-4" style={{ color: 'var(--accent)' }} />
-                      <span style={{ color: 'var(--text-primary)' }}>Resume</span>
-                    </span>
-                    <ArrowUpRight className="w-4 h-4" style={{ color: 'var(--text-secondary)' }} />
-                  </button>
                 </div>
-
-                {/* Honest Resume Notice when resumeUrl is not yet linked */}
-                {showResumeNotice && !siteConfig.resumeUrl && (
-                  <div
-                    className="mt-4 rounded-xl border p-4 text-xs leading-relaxed flex items-start gap-2.5"
-                    style={{
-                      backgroundColor: 'var(--bg-surface)',
-                      borderColor: 'var(--border-strong)',
-                      color: 'var(--text-secondary)',
-                    }}
-                  >
-                    <Info className="w-4 h-4 shrink-0 mt-0.5" style={{ color: 'var(--accent-cyan)' }} />
-                    <div>
-                      <strong className="block mb-1" style={{ color: 'var(--text-primary)' }}>
-                        Resume PDF not linked yet
-                      </strong>
-                      Add your hosted resume PDF URL or local path to{' '}
-                      <code className="font-mono" style={{ color: 'var(--accent-cyan)' }}>
-                        siteConfig.resumeUrl
-                      </code>{' '}
-                      to enable instant downloads.
-                    </div>
-                  </div>
-                )}
               </div>
 
               {/* Right Contact Form */}
@@ -4307,7 +4258,7 @@ export default function App() {
               <Mail className="w-4 h-4" />
             </a>
             <span className="text-xs font-mono pl-2" style={{ color: 'var(--text-secondary)' }}>
-              © {new Date().getFullYear()} {siteConfig.name}
+              Â© {new Date().getFullYear()} {siteConfig.name}
             </span>
           </div>
         </div>
@@ -4315,3 +4266,4 @@ export default function App() {
     </div>
   );
 }
+
